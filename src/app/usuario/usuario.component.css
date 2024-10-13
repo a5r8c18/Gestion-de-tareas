@@ -1,0 +1,54 @@
+/* Estilos generales para el contenedor */
+.container {
+    padding: 16px;
+    margin: 0 auto;
+    max-width: 800px;
+    }
+    
+    /* Estilos para la tabla de usuarios */
+    table {
+    width: 100%;
+    margin-top: 16px;
+    border-collapse: collapse;
+    }
+    
+    th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    }
+    
+    tr:hover {
+    background-color: #f1f1f1;
+    }
+    
+    /* Estilos para los campos del formulario */
+    mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+    }
+    
+    button {
+    display: block;
+    margin: 16px 0;
+    }
+    
+    /* Estilos para la barra de herramientas */
+    mat-toolbar {
+    margin-bottom: 16px;
+    }
+    
+    /* Estilos para los botones */
+    button.mat-raised-button {
+    background-color: #3f51b5;
+    color: white;
+    }
+    
+    button.mat-raised-button:hover {
+    background-color: #303f9f;
+    }

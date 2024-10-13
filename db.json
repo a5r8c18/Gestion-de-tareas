@@ -1,0 +1,9 @@
+{
+    "usuarios": [
+    { "id": 1, "nombre": "Admin", "email": "admin@example.com", "rol": "Admin", "password": "admin123" },
+    { "id": 2, "nombre": "User", "email": "user@example.com", "rol": "User", "password": "user123" }
+    ],
+    "tareas": [
+    { "id": 1, "titulo": "Tarea 1", "descripcion": "Descripción de la tarea 1", "estado": "pendiente", "usuarioId": 1 }
+    ]
+    }
