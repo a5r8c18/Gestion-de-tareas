@@ -14,6 +14,7 @@ import { AppRoutingModule } from './app.routes';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { TareaComponent } from './tarea/tarea.component';
 
+
 @NgModule({
 declarations: [
 AppComponent,
@@ -31,7 +32,7 @@ MatIconModule,
 MatToolbarModule,
 MatSidenavModule,
 MatListModule,
-AppRoutingModule
+AppRoutingModule,
 ],
 providers: [],
 bootstrap: [AppComponent]
